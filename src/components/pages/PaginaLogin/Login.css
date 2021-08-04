@@ -30,10 +30,16 @@
     font-size: 16px;
 }
 .botao-entrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     font-family: "Chewy";
     font-size: 24px;
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+.botao-entrar:hover{
+    background-color: #ec5261cc;
 }
 .sub-opcoes{
     display: flex;

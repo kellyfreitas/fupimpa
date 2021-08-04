@@ -1,8 +1,10 @@
+import { NavLink } from 'react-router-dom'
 import '../../common/colors/colors.css'
 import './Login.css'
 
 export function Login() {
     return (
+        
         <div className="background-login back-verde">
             <div className="card-login back-preto">
                 <form className="form">
@@ -16,11 +18,18 @@ export function Login() {
                         <p className="lembrar branco" >Lembrar de mim </p>
                         <a className="esqueceu-senha branco">Esqueceu a senha?</a>
                     </div>
-                    <button type="submit" className="botao-entrar back-laranja preto">Entrar</button>
+                    <NavLink
+                            exact
+                            className="botao-entrar back-laranja preto"
+                            to="/">
+                            Entrar
+                    </NavLink>
+                   
                 </form>
 
             </div>
         </div>
     )
 }
-//                    <a className="cadastro branco" href="">Cadastre-se!</a>
+//                
+//    <a className="cadastro branco" href="">Cadastre-se!</a>
