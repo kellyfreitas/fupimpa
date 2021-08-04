@@ -17,3 +17,13 @@
     font-family: "Chewy";
     font-size: 24px;
 }
+.navbar-button a:hover{
+/*estilo para link ativado*/
+        color: #96CF8D;
+        border-bottom: 2px solid #96CF8D;
+    
+}
+ .active { /*estilo para link ativado*/
+    color: #96CF8D;
+    border-bottom: 2px solid #96CF8D;
+}
